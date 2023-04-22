@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather APP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- <div id="map"></div> -->
+
+    <div id="box">
+        <h1>Weather Api </h1>
+    <button onclick="getLocation()" id="btn">Fetch Data</button>
+    
+    <div id="latLong">
+        <p id="lat"></p>
+        <p id="long"></p>
+    </div>
+    <div id="map"></div>
+
+    
+    </div>
+
+    <div id="weather"></div>
+
+    
+    
+    <script src="script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0OziJ5bykFlPvsv0MPrzcMyBUlWslG-c&callback=myMap" 
+    type="text/javascript">
+
+    </script>
+
+
+</body>
+</html>
